@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>christmas_tree</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jev-removebg-preview.png" />
+    <None Remove="OIP.jfif" />
+    <None Remove="OIP__1_-removebg-preview.png" />
+    <None Remove="R-removebg-preview.png" />
+    <None Remove="R.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="jev-removebg-preview.png" />
+    <Resource Include="OIP.jfif" />
+    <Resource Include="OIP__1_-removebg-preview.png" />
+    <Resource Include="R-removebg-preview.png" />
+    <Resource Include="R.jfif" />
+  </ItemGroup>
+
+</Project>
